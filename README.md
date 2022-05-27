@@ -9,5 +9,11 @@ LIN28A-bound sequence들로 기계학습으로 예측 모델을 만들고 평가
 - 사용할 library : tensorflow나 hmmlearn(or ghmm), sklearn 등
 - input :  18-mer sequences that are adjacent to high-confidence binding sites (-8 to +9 from the frequently mutated base) from CLIP-35L33G.bam
 - output : LIN28A-bound sequence or not(1/0)
-- data distribution : train data : valid data : test data = 8:1:1 비율로 사용 예정
+- dataset distribution : train data : valid data : test data = 8:1:1 비율로 사용 예정
 - metrics : mainly AUC
+
+분석 단계
+- depth나 shannon entropy를 기준으로 cutoff 결정
+- training dataset과 valid dataset을 우선 분리
+- 정해진 비율에 맞게 겹치지 않도록 test set 분리
+- 모델 디자인 및 학습 
