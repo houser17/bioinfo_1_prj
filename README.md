@@ -1,6 +1,5 @@
 # bioinfo_1_prj
 
-# Project 구상
 (★★) LIN28A binding motif predictor 만들기
 
 LIN28A-bound sequence들로 기계학습으로 예측 모델을 만들고 평가합니다. CNN이나 random forest, kNN 같은 걸 쓸 수도 있지만 단순하게 PSSM을 보정해서 쓰는 것도 가능합니다.
