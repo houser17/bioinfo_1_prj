@@ -7,7 +7,7 @@ LIN28A-bound sequence들로 기계학습으로 예측 모델을 만들고 평가
 
 사용할 기계학습 모델 : RNN(LSTM), HMM 우선 기획 후 random forest 등 실시 예정
 - 시계열 데이터가 input이기 때문에 이를 다루기 위한 모델을 우선적으로 사용 예정
-- 사용할 library : tensorflow나 hmmlearn(or ghmm), sklearn
+- 사용할 library : tensorflow나 hmmlearn(or ghmm), sklearn, biopython
 - input :  18-mer sequences that are adjacent to high-confidence binding sites (-8 to +9 from the frequently mutated base) from CLIP-35L33G.bam
 - input size : 각 read별 4(# base) X 18(length) sparse matrix
 - output : LIN28A-bound sequence or not(1/0)
@@ -22,6 +22,7 @@ LIN28A-bound sequence들로 기계학습으로 예측 모델을 만들고 평가
 - 모델 디자인 및 학습 
 
 고려해야 할 사항
-- K-mer의 k 값
+- read의 length를 18로 할지, 6으로 할지
+- structure data를 고려할지
 - batch size
 - model hyperparameter
