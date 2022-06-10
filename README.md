@@ -25,3 +25,8 @@ LIN28A-bound sequence들로 기계학습으로 예측 모델을 만들고 평가
 - structure data를 고려할지
 - batch size
 - model hyperparameter
+
+최종 결과 파일
+- CoLab_TermProj_2022_free_18mer.ipynb
+- CoLab_TermProj_2022_free_final_6mer.ipynb
+- 18-mer Deeplearning checkpoint
