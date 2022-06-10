@@ -18,10 +18,10 @@ LIN28A-bound sequence들로 기계학습으로 예측 모델을 만들고 평가
 - mouse fasta에서 SNP 앞 뒤 맥락 서열 18 mer를 가져와서 positive dataset으로 사용
 - positive dataset의 read를 random으로 섞은 dataset을 negative dataset으로 사용
 - positive, negative dataset을 정해진 비율에 맞게 겹치지 않도록 분리
-- 모델 디자인 및 학습 
+- 모델 디자인 및 학습
+- k-mer length에 따른 성취도 평가
 
 고려해야 할 사항
-- read의 length를 18로 할지, 6으로 할지
 - structure data를 고려할지
 - batch size
 - model hyperparameter
