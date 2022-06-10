@@ -29,4 +29,4 @@ LIN28A-bound sequence들로 기계학습으로 예측 모델을 만들고 평가
 최종 결과 파일
 - CoLab_TermProj_2022_free_18mer.ipynb
 - CoLab_TermProj_2022_free_final_6mer.ipynb
-- 18-mer Deeplearning checkpoint
+- 18-mer_Deeplearning_checkpoint.zip
